@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  grid-template-areas: 
+  "head head head head head head"
+  "aside aside body body body body"
+  "aside aside body body body body"
+  "aside aside body body body body"
+  "aside aside body body body body"
+
+  ;
 }
 
 code {
