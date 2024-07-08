@@ -1,7 +1,8 @@
 import React from 'react'
+import './header.css'
 
 export default function HeaderBody({children}) {
   return (
-    <div style={{backgroundColor: "green", gridArea: "head"}}>{children}</div>
+    <div>{children}</div>
   )
 }
