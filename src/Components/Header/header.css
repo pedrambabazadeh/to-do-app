@@ -1,6 +1,13 @@
+.header
+{
+    background-color: aquamarine ;
+    width: 100%;
+}
+
 .header-ul
 {
     display: flex;
+    justify-content: space-around;
 }
 
 .header-ul>li
