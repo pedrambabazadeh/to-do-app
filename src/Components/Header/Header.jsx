@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderBody from './HeaderBody'
-import {Email, CalendarMonth, Today} from '@mui/icons-material'
+import {Email, CalendarMonth, Today, CheckBox, Note, Alarm} from '@mui/icons-material'
 
 export default function Header() {
   return (
@@ -14,6 +14,15 @@ export default function Header() {
         </li>
         <li>
           <Email/>
+        </li>
+        <li>
+          <CheckBox/>
+        </li>
+        <li>
+          <Note/>
+        </li>
+        <li>
+          <Alarm/>
         </li>
       </ul>
     </HeaderBody>
