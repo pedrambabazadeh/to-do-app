@@ -1,7 +1,8 @@
 import React from 'react'
+import './left-side.css'
 
 export default function LesftSide() {
   return (
-    <div>LesftSide</div>
+    <aside class='left-column'>LesftSide</aside>
   )
 }

@@ -1,0 +1,8 @@
+aside.left-column
+{
+    position: fixed;
+    height: 100vh;
+    width: 25%;
+    left:0;
+    background-color: grey;
+}
