@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { createContext, useContext, useState } from 'react'
 
-export default function menuProvider() {
+const MenuContext = createContext(undefined);
+ const MenuProvider =({children}) =>{
+
+  const [isOpen, setIsOpen] = useState(false)
+  const toggleOpen = () => setIsOpen(prev => prev != prev)
   return (
-    <div>menuProvider</div>
+    <MenuContext.Provider value={[isOpen, toggleOpen]}>{children}</MenuContext.Provider>
   )
 }
+
+const useMenu = ()=>{ let context = useContext(MenuContext); return context}
+export {MenuProvider, useMenu}
