@@ -4,7 +4,7 @@ const MenuContext = createContext(undefined);
  const MenuProvider =({children}) =>{
 
   const [isOpen, setIsOpen] = useState(false)
-  const toggleOpen = () => setIsOpen(prev => prev != prev)
+  const toggleOpen = () =>{setIsOpen(prev => !prev); console.log(isOpen)} 
   return (
     <MenuContext.Provider value={[isOpen, toggleOpen]}>{children}</MenuContext.Provider>
   )

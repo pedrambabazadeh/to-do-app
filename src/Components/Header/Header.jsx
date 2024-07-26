@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <HeaderBody>
       <ul className='header-ul'>
-      <li onClick = {()=>toggleLeftMenu}>
+      <li onClick = {()=>toggleLeftMenu()}>
           <Menu/>
         </li>
         <li>
