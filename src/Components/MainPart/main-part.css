@@ -1,0 +1,15 @@
+
+.back-main
+{
+  background-image: url("./../../../public/background_main.jpg");
+  background-size: cover;
+}
+
+.main-part
+{
+    position: relative;
+    right:0;
+    height: 100vh;
+    z-index: 0;
+    width: 100vw
+}
