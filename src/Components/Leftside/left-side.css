@@ -5,4 +5,5 @@ aside.left-column
     width: 25%;
     left:0;
     background-color: grey;
+    z-index: 999;
 }
