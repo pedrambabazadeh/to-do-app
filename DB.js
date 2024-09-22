@@ -1,0 +1,8 @@
+{
+   menuItems: [
+      {
+         name: "home",
+         link: "#"
+      }
+   ]
+}
