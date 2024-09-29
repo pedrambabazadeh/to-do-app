@@ -1,7 +1,11 @@
 {
    menuItems: [
       {
-         name: "home",
+         text: "home",
+         link: "#"
+      },
+      {
+         text: "favourite",
          link: "#"
       }
    ]
